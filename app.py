@@ -2,6 +2,8 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
+import sklearn.preprocessing
+import sklearn.neighbors
 
 # Cargar el modelo y el escalador
 scaler = joblib.load("escalador.bin")
